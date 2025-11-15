@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Gaming – Online Schule</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f3f3f3;
+      color: #222;
+    }
+    header {
+      background: #1e1e1e;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      resize: vertical;
+    }
+    button {
+      padding: 14px;
+      background: #0078ff;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005bd1;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Alex Gaming – Online Schule</h1>
+  <p>Moderne, digitale Bildung für alle</p>
+</header>
+
+<section>
+  <h2>Über unsere Schule</h2>
+  <p>
+    Die Alex Gaming Online Schule bietet modernen, vollständig digitalen Unterricht.
+    Besonders in den Fächern <strong>Informatik</strong> und <strong>Kunst</strong> wird intensiv mit 
+    <strong>Canva</strong> gearbeitet, um kreative und professionelle Ergebnisse zu erzielen.
+  </p>
+</section>
+
+<section>
+  <h2>Fächerangebot</h2>
+  <ul>
+    <li>🏫 Allgemeiner Online-Unterricht</li>
+    <li>💻 Informatik – Lernen mit Canva & modernen Tools</li>
+    <li>🎨 Kunst – Kreativität digital entfalten</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Kontaktformular</h2>
+  <p>Schreibe uns deine Anfrage. Wir melden uns schnellstmöglich zurück.</p>
+
+  <form action="mailto:team.alexgaming@icloud.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="Dein Name" required />
+    <input type="email" name="email" placeholder="Deine E-Mail" required />
+    <textarea name="nachricht" rows="6" placeholder="Deine Nachricht" required></textarea>
+    <button type="submit">Absenden</button>
+  </form>
+</section>
+
+</body>
+</html>
